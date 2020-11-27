@@ -10,5 +10,27 @@ package testapp;
  * @author MSI-10scxr
  */
 public class Parent {
+    private String firstName;
+    private String lastName;
+    private String addresss;
+    private String telephoneNumber;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddresss() {
+        return addresss;
+    }
+
+    public String getTelephoneNumber() {
+        return telephoneNumber;
+    }
+    
+    
     
 }
