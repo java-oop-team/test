@@ -13,15 +13,25 @@ public class Teacher {
     private String fname;
     private String lname;
     private String address;
+    private String telephoneNum;
 
-    public Teacher(String fname, String lname, String address) {
+    public Teacher(String fname, String lname, String address,String telephoneNum) {
         this.fname = fname;
         this.lname = lname;
         this.address = address;
+        this.telephoneNum = telephoneNum;
     }
 
     public String getFname() {
         return fname;
+    }
+
+    public String getTelephoneNum() {
+        return telephoneNum;
+    }
+
+    public void setTelephoneNum(String telephoneNum) {
+        this.telephoneNum = telephoneNum;
     }
 
     public String getLname() {
@@ -46,9 +56,10 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return "Teacher{" + "fname=" + fname + ", lname=" + lname + ", address=" + address + '}';
+        return "Teacher{" + "fname=" + fname + ", lname=" + lname + ", address=" + address + ", telephoneNum=" + telephoneNum + '}';
     }
-    
+
+
     
     
 }
