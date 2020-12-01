@@ -14,6 +14,7 @@ public class Parent {
     private String lastName;
     private String addresss;
     private String telephoneNumber;
+    private String number;
 
     public String getFirstName() {
         return firstName;
@@ -29,6 +30,10 @@ public class Parent {
 
     public String getTelephoneNumber() {
         return telephoneNumber;
+    }
+
+    public String getNumber() {
+        return number;
     }
     
     
