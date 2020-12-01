@@ -30,6 +30,22 @@ public class Parent {
     public String getTelephoneNumber() {
         return telephoneNumber;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAddresss(String addresss) {
+        this.addresss = addresss;
+    }
+
+    public void setTelephoneNumber(String telephoneNumber) {
+        this.telephoneNumber = telephoneNumber;
+    }
     
     
     
